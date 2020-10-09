@@ -10,6 +10,6 @@ describe("Sub", function() {
 // fail test
 describe('SubNegative', function() {
     it("It should equal -55", function() {
-        assert.strictEqual(functions.add(0, -55), -55);
+        assert.strictEqual(functions.add(0, -55), -52);
     });
 });
