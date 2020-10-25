@@ -7,9 +7,15 @@ describe("Sub", function() {
     });
 });
 
-// fail test
+
 describe('SubNegative', function() {
     it("It should equal -55", function() {
-        assert.strictEqual(functions.add(0, -55), -55);
+        assert.strictEqual(functions.sub(0, 55), -55);
+    });
+});
+
+describe('SubNegative2', function() {
+    it("It should equal -3", function() {
+        assert.strictEqual(functions.sub(5, 8), -3);
     });
 });
