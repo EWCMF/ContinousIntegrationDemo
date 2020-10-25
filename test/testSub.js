@@ -19,3 +19,9 @@ describe('SubNegative2', function() {
         assert.strictEqual(functions.sub(5, 8), -3);
     });
 });
+
+describe('SubNegative3', function() {
+    it("It should equal -1", function() {
+        assert.strictEqual(functions.sub(5, 6), -1);
+    });
+});
