@@ -1,5 +1,5 @@
 var assert = require('assert');
-var functions = require('../functions');
+var functions = require('../code/functions');
 
 describe("Sub", function() {
     it("It should equal 20", function() {
