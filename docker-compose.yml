@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  ci-exercise:
+    build: .
+    image: tgh/ci-exercise:latest
+    ports:
+      - "49162:3000"
