@@ -1,4 +1,4 @@
-var functions = require('./functions');
+var functions = require('./public/javascripts/functions');
 
 console.log(functions.add(1, 2));
 console.log(functions.sub(5, 6));
